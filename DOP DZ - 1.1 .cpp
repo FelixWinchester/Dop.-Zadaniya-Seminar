@@ -1,5 +1,4 @@
 #include <iostream>
-#include <iomanip>
 #include <cmath>
 using namespace std;
 int main()
@@ -7,8 +6,8 @@ int main()
     double a, b;
     cin >> a >> b;
     if (((a - 1) * (a - 1) + b * b < 1 * 1) && ((a > 0 && b < 1) || (a > 0 && b > -1))) {
-        cout << "Ок";
+        cout << "Ok";
     }
-    else cout << "Не ок";
+    else cout << "Not Ok";
     return 0;
 }
